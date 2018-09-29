@@ -13,7 +13,11 @@
 .center-row{
     margin: 0px auto;
 }
-
+.service-widget{
+    padding: 5px 20px;
+    margin-top: 15px;
+    /* background-color: springgreen; */
+}
 .gallery{
     width: 100%;
 }
