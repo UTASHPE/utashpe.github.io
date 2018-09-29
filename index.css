@@ -1,5 +1,7 @@
 
-
+.container{
+    padding-top: 50px;
+}
 
 .landing-container{
     /* width: 100; */
@@ -7,4 +9,31 @@
     background: url("./resc/img/UTA_College_Park_Center_NW.png") no-repeat;
     background-size: cover;
     background-position-y: 0px;
+}
+
+
+.center-row{
+    margin: 0px auto;
+}
+
+.gallery{
+    width: 100%;
+}
+.gallery-container{
+    padding:0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.gallery-image{
+
+    height: 200px;
+    width: 200px;
+    padding:0;
+    margin:0;
+    background-color: red;;
+    border: solid gray 2px;
 }
