@@ -1,6 +1,7 @@
 
 .container{
     padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .landing-container{
@@ -25,15 +26,20 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+    align-items: space-around;
+    justify-content: space-between;
+    flex-grow: 1;
+    /* background: rgb(20, 20, 20); */
 }
 .gallery-image{
 
     height: 200px;
-    width: 200px;
+    min-width: 300px;
+    /* flex-grow: 1; */
+    flex: 1 1;
     padding:0;
     margin:0;
-    background-color: red;;
-    border: solid gray 2px;
+    background: url("./resc/img/shpe_group_tmp.jpg") no-repeat;
+    background-size: cover;
+
 }
