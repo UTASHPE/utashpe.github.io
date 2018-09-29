@@ -10,12 +10,6 @@
     background-size: cover;
     background-position-y: 0px;
 }
-<<<<<<< HEAD
-.center-row{
-    margin: auto;
-=======
-
-
 .center-row{
     margin: 0px auto;
 }
@@ -40,5 +34,4 @@
     margin:0;
     background-color: red;;
     border: solid gray 2px;
->>>>>>> c0d9e503c51db5dcefb27b83c7b60ea13a4f85cf
 }
