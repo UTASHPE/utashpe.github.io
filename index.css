@@ -1,1 +1,7 @@
-css
+.landing-container{
+    /* width: 100; */
+    height: calc(100vh - 56px);
+    background: url("./resc/img/UTA_College_Park_Center_NW.png") no-repeat;
+    background-size: cover;
+    background-position-y: 0px;
+}
