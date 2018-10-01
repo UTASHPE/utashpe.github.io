@@ -14,34 +14,103 @@
 .center-row{
     margin: 0px auto;
 }
+
+
 .service-widget{
     padding: 5px 20px;
     margin-top: 15px;
+    margin-bottom: 40px;
     /* background-color: springgreen; */
 }
-.gallery{
-    width: 100%;
-}
+
+
+
+/* GALLARY */
 .gallery-container{
-    padding:0;
-    margin: 0;
+}
+
+.gallery-info{
+    padding: 60px 50px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-content: center;
+}
+.gallery-info-2{
+    padding: 30px 50px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-content: center;
+}
+.gallery-info-link{
+    padding: 10px;
+    width: 82px;
+    color: springgreen;
+    border-radius: 4px;
+    border: solid springgreen 3px;
+    text-decoration: none;
+
+}
+
+.gallery-container{
     width: 100%;
+    color: rgb(211, 211, 211);
+    background-color: rgb(22, 22, 22);
+    /* padding:0;
+    margin: 0;
     display: flex;
     flex-wrap: wrap;
     align-items: space-around;
     justify-content: space-between;
     flex-grow: 1;
-    /* background: rgb(20, 20, 20); */
+    background: rgb(20, 20, 20); */
 }
-.gallery-image{
+.gallery-image > img{
+    width: 100%; 
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
 
-    height: 200px;
-    min-width: 300px;
-    /* flex-grow: 1; */
-    flex: 1 1;
-    padding:0;
-    margin:0;
-    background: url("./resc/img/shpe_group_tmp.jpg") no-repeat;
-    background-size: cover;
+
+@media (min-width: 800px){
+    .gallery-container{
+
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .gallery-info{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .gallery-info-2{
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    
+    .gallery-image{
+    }
+
+ 
+
+    .img-1{
+        grid-column: span 3;
+        grid-row: span 2;
+    }
+
+    .img-2{
+        grid-column: span 2;
+        grid-row: span 1;
+    }
+    .img-3{
+        grid-column: span 2;
+        grid-row: span 2;
+    }
+    .img-4{
+        grid-column: span 1;
+        grid-row: span 1;
+    }
 
 }
