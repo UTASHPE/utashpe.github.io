@@ -20,10 +20,16 @@
     padding: 5px 20px;
     margin-top: 15px;
     margin-bottom: 40px;
-    /* background-color: springgreen; */
+    /*background-color: springgreen; */
 }
-
-
+.service{
+    transform: scale(3.0);
+}
+.contactUsSVG{
+    margin-top: 100px;
+    height: 75px;
+    width: 75px;
+}
 
 /* GALLARY */
 .gallery-container{
