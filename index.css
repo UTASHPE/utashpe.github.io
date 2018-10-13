@@ -1,4 +1,9 @@
 
+h2{
+    margin-bottom: 20px;
+}
+
+
 .container{
     padding-top: 50px;
     padding-bottom: 50px;
@@ -9,11 +14,30 @@
     height: 100vh;
     background: url("./resc/img/UTA_College_Park_Center_NW.png") no-repeat;
     background-size: cover;
-    background-position-y: 0px;
+    /* background-position-y: 0px; */
+    background-position: top;
 }
 .center-row{
     margin: 0px auto;
 }
+
+.landing-arrow{
+    position: absolute;
+    bottom: 10px;
+    left: 2%;
+    
+}
+
+
+/* ABOUT */
+.shpe-logo{
+    width: 100%; 
+    margin-top: 100px;
+}
+.about{
+    position: relative;
+}
+
 
 
 .service-widget{
@@ -30,6 +54,16 @@
     height: 75px;
     width: 75px;
 }
+
+
+.sponsors{
+    /* border: solid black 2px; */
+    position: relative;
+}
+.sponsor > img{
+    width: 200px; height: 200px;
+}
+
 
 /* GALLARY */
 .gallery-container{
