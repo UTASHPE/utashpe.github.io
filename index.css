@@ -1,8 +1,9 @@
-
+body{
+    padding: 0;margin:0;
+}
 h2{
     margin-bottom: 20px;
 }
-
 
 .container{
     padding-top: 50px;
@@ -15,6 +16,8 @@ h2{
     background: url("./resc/img/UTA_College_Park_Center_NW.png") no-repeat;
     background-size: cover;
     /* background-position-y: 0px; */
+    /* padding: 0px;
+    margin: 0px; */
     background-position: top;
 }
 .center-row{
@@ -37,7 +40,31 @@ h2{
 }
 .about{
     position: relative;
+    padding: 0;
+    /* border: solid red 2px;     */
 }
+.about-info{
+    padding: 0px 60px 0px;
+    margin: 0;
+    /* padding-bottom: 60px; */
+    color: rgb(214, 214, 214);
+
+    background: #060000;
+}
+.about-side{
+    padding: 0px;
+}
+.about-side-image{
+    background: url("https://images.pexels.com/photos/1471748/pexels-photo-1471748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    /* overflow: visible; */
+
+    width: 100%;
+    height: 100%;
+}
+
+
 .about-text{
     width: 200px;
 }
@@ -65,10 +92,20 @@ h2{
     width: 200px; height: 200px;
 }
 
+#about2{
+    padding: 50px 40px;
+    margin: 0;
+    background: #0E2A6A;
+    color: rgb(231, 231, 231);
+}
+
 
 /* GALLARY */
-.gallery-container{
+#gallery{
+    padding: 0;
+    margin: 0;
 }
+
 
 .gallery-info{
     padding: 60px 50px;
