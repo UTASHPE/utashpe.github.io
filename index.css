@@ -38,9 +38,9 @@ h2{
 .about{
     position: relative;
 }
-
-
-
+.about-text{
+    width: 200px;
+}
 .service-widget{
     padding: 5px 20px;
     margin-top: 15px;
@@ -93,6 +93,17 @@ h2{
     text-decoration: none;
 
 }
+.gallery-info-link:hover{
+    color: rgb(5, 216, 110);    
+    border-color: rgb(5, 216, 110);
+    text-decoration: none;   
+}
+.gallery-info-link:active{
+    color: rgb(4, 182, 93); 
+    border-color: rgb(0, 163, 82);
+
+}
+
 
 .gallery-container{
     width: 100%;
@@ -115,6 +126,58 @@ h2{
 }
 
 
+
+/* JOIN  */
+
+
+
+/* END JOIN */
+#join{
+    padding-top: 60px; /*fixes bug where going to id of join is covered by navbar*/
+    margin-top: 100px;
+    /* border: solid red 2px; */
+    /* padding: 40px; */
+}
+.join > div{
+    padding: 25px 30px 50px;
+    color: rgb(236, 236, 236);
+    padding-bottom: 100px;
+    
+}
+.join-text > h3{
+    margin-bottom: 25px;
+}
+.join-text > p{
+    margin-bottom: 5px;
+}
+.join-left{
+    background: #2B6596;
+}
+.join-right{
+    background-color: #E86C37;
+}
+.form-labels{
+    font-weight: bold;
+    margin-top: 20px;
+}
+.form-input{
+    background: #E86C37;
+    border: none;
+    border-bottom: solid white 1px;
+    margin-bottom: 30px;
+    width: 90%;
+    
+    color: rgb(255, 240, 233);
+}
+.form-input:focus{
+    outline: none;
+}
+.form-input::placeholder{
+    color: #9F3204;
+}
+
+
+/* MEDIA FOR MOBILE */
 @media (min-width: 800px){
     .gallery-container{
 
