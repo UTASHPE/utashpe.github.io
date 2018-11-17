@@ -12,13 +12,13 @@ h2{
 
 .landing-container{
     /* width: 100; */
-    height: 100vh;
+    height: 85vh;
     background: url("./resc/img/UTA_College_Park_Center_NW.png") no-repeat;
     background-size: cover;
     /* background-position-y: 0px; */
     /* padding: 0px;
     margin: 0px; */
-    background-position: top;
+    background-position: center;
 }
 .center-row{
     margin: 0px auto;
@@ -54,15 +54,7 @@ h2{
 .about-side{
     padding: 0px;
 }
-.about-side-image{
-    background: url("https://images.pexels.com/photos/1471748/pexels-photo-1471748.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260") no-repeat;
-    background-size: cover;
-    background-position: center bottom;
-    /* overflow: visible; */
 
-    width: 100%;
-    height: 100%;
-}
 
 
 .about-text{
