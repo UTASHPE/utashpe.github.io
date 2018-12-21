@@ -1,0 +1,14 @@
+{
+  "name": "awsdynamo",
+  "version": "1.0.0",
+  "description": "This is the code when will be run to communicate with DynamoDB",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Gustavo Ortega Jimenez",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.381.0"
+  }
+}
