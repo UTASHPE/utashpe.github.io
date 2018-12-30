@@ -1,4 +1,5 @@
 //create a new item
+//will use AWS lambda for serverless server?
 var AWS = require("aws-sdk");
 
 AWS.config.update({
