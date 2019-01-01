@@ -5,3 +5,5 @@ $(function () {
     });
 
   });
+
+//create function for onclick information
