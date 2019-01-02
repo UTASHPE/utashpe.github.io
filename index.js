@@ -5,5 +5,10 @@ $(function () {
     });
 
   });
+var submit = document.getElementById('getInfo');
+function bleh(){
+  submit.textContent = 'bleh';
+}
+submit.onclick = bleh;
 
 //create function for onclick information
