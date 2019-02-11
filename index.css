@@ -1,163 +1,363 @@
 body{
     padding: 0;margin:0;
 }
+
 h2{
     margin-bottom: 20px;
 }
+
+*{
+    padding:0; margin:0;
+
+}
+
+.row{
+    padding: 0;
+    margin:0;
+}
+
+.container-fluid{
+    padding:0; margin:0;
+}
+
+
+/* LANDING  */
+
+/* nav */
+nav{
+    /* border: solid red 2px; */
+    margin: 20px 0px;
+    display: flex;
+    width: 80px;
+    
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-lr;
+    /* margin-bottom: auto; */
+}
+nav > a{
+    margin-bottom: 20px;
+    font-family: 'Oswald';
+    text-decoration: none;
+    color: black;    
+}
+
+.nav-active{
+    /* color: rgb(92, 92, 92); */
+    text-decoration: underline;
+}
+
+/* nav end */
+
+.landing-container{
+    padding:0; margin:0;
+    /* background-color: gray; */
+    /* border: solid red 2px; */
+    min-height: 95vh;
+    display: flex;
+    
+}
+
+/* Child container of .landing-container */
+.landing-container > div{
+    padding: 20px 0px 20px 20px;
+    /* border: solid red 2px; */
+}
+
+
+/* left landing */
+.landing-left{
+    width: 50vw;
+    background-color: white;
+    display: flex;
+    padding-right: 0;
+    /* flex-direction: column; */
+    
+}
+
+.landing-logo{
+    /* border: solid red 2px; */
+    width: 80px;
+    /* height: 100px; */
+    
+    
+}
+
+
+.landing-contact{
+    display: flex;
+    width: 80px;
+    margin: 50px 0px;
+    justify-content: center;
+    align-items: center;
+    writing-mode: vertical-lr;
+    font-size: .8em;
+    /* border: solid red 2px; */
+    
+}
+
+.nav-social > a{
+    writing-mode: horizontal-tb;
+    padding: 5px;
+}
+
+.line-bar{
+    background-color: black;
+    height: 30px;
+    width: 2px;
+    margin: 20px 0px;
+}
+
+.email-icon{
+    padding-left: 2px;
+    width: 40px;
+    height: 40px;
+    background: black;
+    border: solid black 10px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.landing-text-aside{
+    /* border: solid red 2px; */
+    display: flex;
+    width: 100%;
+    height: 109%;
+    z-index: 2;
+    padding-left: 150px;
+    /* justify-content: center; */
+    
+}
+
+
+.landing-text-logo{
+    writing-mode: vertical-lr;
+    color: #153B73;
+    font-size: 315px;
+    font-family: 'bitter';
+    line-height: 80%;
+    letter-spacing: 35px;
+    padding: 0px;
+    font-weight: 1000;   
+
+
+}
+
+.landing-text-header{
+    padding-top: 100px;
+    width: 50%;;
+    font-weight: 100;
+    font-family: 'bitter';
+    /* align-self: flex-start; */
+    font-size: 50px;
+    color: #FFA800;
+    z-index: 3;
+    padding-left: 80px;
+    /* border: solid red 2px; */
+    height: 100%;
+    margin-right: auto;
+
+}
+
+.text-header-container{
+    /* border: solid red 2px; */
+    height: 90%;
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.text-header-container > span{
+/* margin-bottom: auto; */
+}
+.text-header-container > h1{
+    /* border: solid blue 2px; */
+    font-size: 150px;
+    font-weight: 950;
+    align-self: flex-end;
+    filter: opacity(30%);
+    
+    
+}
+
+
+.landing-text-scroll{
+    /* border: solid red 2px; */
+    writing-mode: vertical-lr;
+    line-height: 50px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    letter-spacing: 18px;
+    font-family: 'bitter';
+    font-weight: bolder;
+
+    
+}
+
+.line-bar-v{
+    margin-top: 10px;
+    width: 2px; 
+    height: 200px; 
+    background: black;
+    
+}
+
+/* right landing */
+.landing-right{
+    width: 50vw;
+    background-color: #153B73;
+    /* background: url('/resc/img/guys_booth_SHPE.large'); */
+    background: url('/resc/img/architecture-building-business-256381.jpg') no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* LANDING END */
+
+
+
+
+
 
 .container{
     padding-top: 50px;
     padding-bottom: 50px;
 }
 
-.landing-container{
-    /* width: 100; */
-    height: 85vh;
-    background: url("./resc/img/UTA_College_Park_Center_NW.png") no-repeat;
-    background-size: cover;
-    /* background-position-y: 0px; */
-    /* padding: 0px;
-    margin: 0px; */
-    background-position: center;
+.container-fluid{
+    margin-top: 50px;
+    padding: 20px 50px;
 }
+
+
+
+
+
+
+
+
+
+
 .center-row{
     margin: 0px auto;
 }
 
-.landing-arrow{
-    position: absolute;
-    bottom: 10px;
-    left: 2%;
+
+
+
+
+
+/* FLOATING TEXT */
+.major-text-container{
+    /* border: solid blue 2px; */
+    padding: 0 30px;
+    margin-top: 60px;
+    margin: 0;
+}
+
+.major-text-container > h1{
+    /* border: solid red 2px; */
+    
+    font-weight: 900;
+    font-size: 100px;
+    font-family: 'oswald';
+    line-height: 95%;
+    padding: 0;
+    margin: 15px 0;
+    text-shadow: 15px 10px 3px rgb(218, 218, 218);
+}
+
+
+.major-paragraph{
+    /* border: solid green 2px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.major-paragraph > span{
+    /* text-align: right */
+    font-size: 50px;
+    color: #FFA800;
+    font-weight: 900;
+    line-height: 45px;
+    width: 400px;
+    /* background: red; */
     
 }
+
+/* END FLOATING TEXT */
+
 
 
 /* ABOUT */
 .shpe-logo{
-    width: 100%; 
+    /* width: 100%;  */
     margin-top: 100px;
     padding: 50px;
 }
-.about{
-    position: relative;
-    padding: 0;
-    /* border: solid red 2px;     */
-}
-.about-info{
-    padding: 0px 60px 0px 0px;
-    margin: 0;
-    /* padding-bottom: 60px; */
-    color: rgb(196, 196, 196);
 
-    background: #060000;
-}
-.about-side{
-    padding: 0px;
+#about{
+    
+    color: rgb(233, 233, 233);
+    min-height: 650px;
+    padding-top: 50px;
+    background: #153B73;
+
 }
 
 
 
-.about-text{
-    padding-top: 40px;
-    width: 200px;
-}
-.service-widget{
-    padding: 5px 20px;
-    margin-top: 15px;
-    margin-bottom: 0px;
-}
-.service{
-    transform: scale(3.0);
-    color: rgb(196, 196, 196);
+.about-header{
     margin-bottom: 20px;
-}
-.contactUsSVG{
-    margin-top: 100px;
-    height: 75px;
-    width: 75px;
-}
-
-
-.sponsors{
-    /* border: solid black 2px; */
-    position: relative;
-}
-.sponsor > img{
-    width: 200px; height: 200px;
+    color: #FFA800;
+    font-weight: 900;
+    font-size: 4em;
+    
 }
 
-#about2{
-    padding: 50px 40px;
-    margin: 0;
-    background: #0E2A6A;
-    color: rgb(231, 231, 231);
-    box-shadow: 0px 0px 6px rgb(61, 60, 60);
+.about-paragraph{
+    line-height: 28px;
+    font-size: 1.3em;
 }
 
+.about-img{
 
-/* GALLARY */
-#gallery{
-    padding: 0;
-    margin: 0;
-}
-
-
-.gallery-info{
-    padding: 60px 50px;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-content: center;
-}
-.gallery-info-2{
-    padding: 30px 50px;
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    align-content: center;
-}
-.gallery-info-link{
-    padding: 10px;
-    width: 82px;
-    color: springgreen;
-    border-radius: 4px;
-    border: solid springgreen 3px;
-    text-decoration: none;
+    background: #153B73 url("/resc/img/group_pic1.jpeg") no-repeat 0 0;
+    background-size: cover;
+    background-position: right;
+    box-shadow: 10px 10px 0 rgb(19, 48, 90);
+    min-height: 450px;
 
 }
-.gallery-info-link:hover{
-    color: rgb(5, 216, 110);    
-    border-color: rgb(5, 216, 110);
-    text-decoration: none;   
+.sub-about-content{
+    font-family: 'bitter';
+    margin-bottom: 100px;
 }
-.gallery-info-link:active{
-    color: rgb(4, 182, 93); 
-    border-color: rgb(0, 163, 82);
-
+.sub-about-content > h2{
+    font-size: 3em;
+    font-weight: bolder;
 }
-
-
-.gallery-container{
-    width: 100%;
-    color: rgb(211, 211, 211);
-    background-color: rgb(22, 22, 22);
-    /* padding:0;
-    margin: 0;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: space-around;
-    justify-content: space-between;
-    flex-grow: 1;
-    background: rgb(20, 20, 20); */
-}
-.gallery-image > img{
-    width: 100%; 
-    height: 100%;
-    display: block;
-    object-fit: cover;
+.sub-about-content > p{
+    font-size: 1.4em;
+    max-width: 400px;
+    font-family: 'Merriweather';
 }
 
+.about-sm-img{
+    /* border: solid red 2px; */
+    
+    max-height: 300px;
+    
+}
 
+/* END ABOUT */
 
 /* JOIN  */
 
