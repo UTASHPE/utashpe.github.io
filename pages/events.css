@@ -1,0 +1,64 @@
+
+
+
+body{
+    /* color: rgb(243, 243, 243); */
+    
+    /* background: #153B73; */
+
+    font-family: 'Oswald';
+    min-height: 150vh;
+}
+
+.events-container{
+    padding: 40px 20px;
+}
+
+
+
+.calendar-container{
+    width: 80%;
+    /* height: 500px;  */
+    height: 70vh;
+    /* border: Solid red 2px; */
+    margin: auto;
+
+
+}
+
+
+
+
+
+
+nav{
+    display: flex;
+    justify-content: flex-end;
+}
+nav > a{
+    margin-right: 25px;
+    font-size: 2rem;
+}
+
+
+*{
+font-family: 'Oswald';
+}
+
+
+
+
+@media (max-width: 769px){
+
+    .events-container{
+        padding: 0;
+        margin: 0;
+        /* flex-direction: column; */
+    }
+
+    nav{
+        flex-direction: row;
+        writing-mode: horizontal-tb;
+    }
+    
+}

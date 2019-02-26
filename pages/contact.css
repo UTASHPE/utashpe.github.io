@@ -1,0 +1,198 @@
+*{
+  font-family: 'Oswald';
+}
+
+
+nav{
+  /* border: solid red 2px; */
+  margin: 20px 0px;
+  display: flex;
+  width: 80px;
+  font-size: 22px;
+  justify-content: center;
+  align-items: center;
+  writing-mode: vertical-lr;
+  /* margin-bottom: auto; */
+}
+nav > a{
+  margin-bottom: 20px;
+  font-family: 'Oswald';
+  text-decoration: none;
+  color: black;    
+}
+
+.nav-active{
+  /* color: rgb(92, 92, 92); */
+  text-decoration: underline;
+}
+nav > form > input{
+  /* border: solid red 2px; */
+  margin-top: 35px;
+  width: 120px;
+  height: 40px;
+  transform: rotate(90deg); 
+}
+
+.nav-social{
+  display: flex;
+
+}
+
+.nav-social > a{
+  writing-mode: horizontal-tb;
+  padding: 2px;
+  transition: transform .2s;
+  /* border: solid red 2px; */
+  /* padding-bottom: 20px; */
+  margin-top: 20px;
+}
+.nav-social > a:hover{
+  transform: scale(1.8);
+}
+/* left landing */
+.landing-left{
+  width: 50vw;
+  background-color: white;
+  display: flex;
+  padding-right: 0;
+  /* flex-direction: column; */
+  
+}
+
+.landing-logo{
+  /* border: solid red 2px; */
+  width: 80px;
+  /* height: 100px; */
+  
+  
+}
+
+.aside-navbar{
+  /* border: solid red 2px; */
+  width: 80px;
+  min-height: 100vh;
+}
+.landing-contact{
+  display: flex;
+  width: 80px;
+  /* height: 200px; */
+  /* margin: 60px 0px; */
+  justify-content: center;
+  align-items: center;
+  writing-mode: vertical-lr;
+  font-size: .8em;
+  /* border: solid red 2px; */
+  
+}
+
+.contact-landing{
+  display: flex;
+  /* border: solid red 2px; */
+}
+
+.contact-container{
+  /* border: solid red 2px; */
+  width: 100%;
+  /* padding: 20px 40px; */
+  padding-left: 20px;
+}
+.contact-container > div{
+  /* border: solid red 2px; */
+}
+.contact-info-container{
+  width: 100%;
+  padding: 40px 40px 0;
+
+  /* margin-bottom: 50px; */
+  /* border: Solid blue 2px; */
+}
+
+.contact-info-container > h2{
+  font-size: 3rem;
+  /* margin-botto: */
+}
+.contact-info-container > h4{
+  font-size: 2rem;
+}
+.contact-info-container > h4 > small{
+  color: #FFA800;
+
+}
+#contact-info{
+  /* background: #153B73;
+  color: rgb(235, 235, 235); */
+  /* box-shadow: inset 8px 0px 10px rgb(16, 43, 83), inset -5px 0px 10px rgb(16, 43, 83); */
+  /* box-shadow: inset ; */
+  overflow: hidden;
+  
+}
+
+#contact-info > img{
+  /* border: solid red 2px; */
+  width: 60%;
+  position: absolute;
+  bottom: -40px;
+  /* right: calc(20%); */
+  left: -50px;
+}
+
+
+#mailing-list-container{
+  overflow: hidden;
+  background: #153B73;
+  color: rgb(235, 235, 235);
+  z-index: 1;
+  /* box-shadow: inset 8px 0px 10px rgb(16, 43, 83), inset -5px 0px 10px rgb(16, 43, 83);  */
+}
+
+.mail-chimp-container{
+  width: 50%;
+  z-index: 1;
+}
+
+.sign-up-svg{
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: scale(3.2);
+  overflow: hidden;
+  z-index: 2;
+  opacity: .4;
+  filter: brightness(.2)
+}
+
+
+
+
+@media (max-width: 769px){
+  .contact-container{
+    padding: 2px 4px;
+  }
+  .contact-info-container{
+    padding-bottom: 80px;
+  }
+  .contact-info-container > img{
+    display: none;
+  }
+  .contact-container{
+    padding: 0;
+  }
+  .mail-chimp-container{
+    width: 100%;
+  }
+  
+  .landing-logo{
+    display: none;
+  }
+  .aside-navbar{
+    /* border: solid red 2px; */
+    /* height: 50px; */
+  }
+  .landing-contact{
+
+    font-size: .7rem; 
+  }
+  
+  
+
+}
