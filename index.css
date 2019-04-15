@@ -168,6 +168,8 @@ h2{
 
 }
 .text-header-container > span{
+    background: white;
+    height: 400px;
 /* margin-bottom: auto; */
 }
 .text-header-container > h1{
@@ -205,12 +207,26 @@ h2{
 
 /* right landing */
 .landing-right{
-    width: 50vw;
+    width: 60vw;
     background-color: #153B73;
+    height: 100vh;
+    object-fit: cover;
+    padding: 0 !important;
+    overflow: hidden;
     /* background: url('/resc/img/guys_booth_SHPE.large'); */
+
+
     background: url('/resc/img/architecture-building-business-256381.jpg') no-repeat;
     background-size: cover;
     background-position: center;
+}
+.landing-right > video{
+    /* border: solid red 2px; */
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    /* width: 20px; */
 }
 
 

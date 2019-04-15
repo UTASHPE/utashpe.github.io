@@ -1,0 +1,54 @@
+
+
+.candidate-image{
+  
+
+  
+}
+
+
+
+
+.img-thumbnail{
+  max-height: 500px;
+}
+
+
+
+/* List of images */
+#img-steve{
+  background: url("../resc/img/elections/steve.jpeg") no-repeat;
+  background-size: contain;
+  background-position: center;
+} 
+
+
+.position_title_container{
+  background-color: #153B73;
+  color: rgb(238, 238, 238);
+  box-shadow: inset 0px -3px 4px rgb(13, 36, 70);
+  /* width: 82vw; */
+  padding: 40px 50px;
+}
+
+.container{
+  margin-bottom: 225px
+}
+
+.candidate-container{
+  border-radius: 4px;
+  box-shadow: 2px 2px 10px rgb(170, 170, 170);
+  margin: 80px 0px;
+  padding: 20px 5px;
+}
+
+
+.candidate-description{
+  margin-top: 40px;
+}
+
+
+.position_title{
+  font-weight: bolder;
+  /* color: red; */
+}
