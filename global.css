@@ -1,69 +1,75 @@
 /* .navbar-override{
     background-color: none;
 } */
-
 .navbar-override.scrolled {
-    background-color: #fff !important;
-    transition: background-color 200ms linear;
-  }
+  background-color: #fff !important;
+  -webkit-transition: background-color 200ms linear;
+  transition: background-color 200ms linear;
+}
 
-
-  /* Navbar */
-
-
+/* Navbar */
 /* nav */
-nav{
+nav {
+  /* border: solid red 2px; */
+  margin: 20px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80px;
+  font-size: 22px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-writing-mode: vertical-lr;
+      -ms-writing-mode: tb-lr;
+          writing-mode: vertical-lr;
+  /* margin-bottom: auto; */
+}
+
+nav > a {
+  margin-bottom: 20px;
+  font-family: 'Oswald';
+  text-decoration: none;
+  color: black;
+}
+
+nav > form > input {
+  /* border: solid red 2px; */
+  margin-top: 35px;
+  width: 120px;
+  height: 40px;
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.nav-active {
+  /* color: rgb(92, 92, 92); */
+  text-decoration: underline;
+}
+
+@media (max-width: 769px) {
+  .mobile-hide {
+    display: none;
+  }
+  nav {
+    /* display: none; */
     /* border: solid red 2px; */
-    margin: 20px 0px;
-    display: flex;
-    width: 80px;
-    font-size: 22px;
-    justify-content: center;
-    align-items: center;
-    writing-mode: vertical-lr;
-    /* margin-bottom: auto; */
-}
-nav > a{
-    margin-bottom: 20px;
-    font-family: 'Oswald';
-    text-decoration: none;
-    color: black;    
-}
-
-nav > form > input{
-    /* border: solid red 2px; */
-    margin-top: 35px;
-    width: 120px;
-    height: 40px;
-    transform: rotate(90deg); 
-}
-.nav-active{
-    /* color: rgb(92, 92, 92); */
-    text-decoration: underline;
-}
-
-
-
-
-@media (max-width: 769px){
-    .mobile-hide{
-        display: none;
-    }
-
-    
-    nav{
-        /* display: none; */
-        /* border: solid red 2px; */
-        writing-mode: horizontal-tb;
-        width: 100%;
+    -webkit-writing-mode: horizontal-tb;
+        -ms-writing-mode: lr-tb;
+            writing-mode: horizontal-tb;
+    width: 100%;
+    -ms-flex-pack: distribute;
         justify-content: space-around;
-        font-size: 1.2rem;
-    }
-    
-    .landing-left{
-        flex-direction: column;
-    }
-
-    
-
+    font-size: 1.2rem;
+  }
+  .landing-left {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
+/*# sourceMappingURL=global.css.map */
