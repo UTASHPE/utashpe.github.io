@@ -14,7 +14,7 @@ a {
 }
 
 .landing-content {
-  padding: 20px 20px 20px 20px;
+  padding: 0px 20px 20px 20px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -131,7 +131,6 @@ a {
     margin-bottom: 50px;
   }
   .block-1 .landing-info {
-    margin-left: auto;
     margin-right: auto;
     width: 80vw;
     position: relative;
@@ -149,7 +148,7 @@ a {
         grid-template-rows: repeat(8, 1fr);
   }
   .grid-container .gridbox-1 {
-    padding: 50px 20px;
+    padding: 50px 5px;
     -ms-grid-column: 1;
         grid-column-start: 1;
     grid-column-end: 5;
@@ -165,11 +164,11 @@ a {
     line-height: 78px;
     font-size: 72px;
     letter-spacing: 0.08em;
-    padding-left: 40px;
+    padding-left: 10px;
     color: #153B73;
   }
   .grid-container .gridbox-1 p {
-    padding-left: 40px;
+    padding-left: 10px;
     font-size: 1.5rem;
     font-family: 'Merriweather';
     width: 60%;

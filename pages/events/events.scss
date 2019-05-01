@@ -22,7 +22,7 @@ a{
 }
 
 .landing-content{
-  padding: 20px 20px 20px 20px;
+  padding: 0px 20px 20px 20px;
   display: flex;
   flex-direction: column;
   // background: $blue;
@@ -162,7 +162,7 @@ a{
 
     .landing-info{
       // margin-left: 1rem;
-      margin-left: auto;
+      // margin-left: auto;
       margin-right: auto;
       // height: 800px;
       width: 80vw;
@@ -188,7 +188,7 @@ a{
     grid-template-rows: repeat(8, 1fr);
     
     .gridbox-1{
-      padding: 50px 20px;
+      padding: 50px 5px;
       grid-column-start: 1;
       grid-column-end: 5;
       grid-row-start:1;
@@ -203,7 +203,7 @@ a{
         line-height: 78px;
         font-size: 72px;
         letter-spacing: 0.08em;
-        padding-left: 40px;
+        padding-left: 10px;
         // color: #FFA800;
         color: $blue;
 
@@ -214,7 +214,7 @@ a{
 
       }
       p{
-        padding-left: 40px;
+        padding-left: 10px;
         font-size: 1.5rem;
         font-family: 'Merriweather';
         // color: rgb(29, 29, 29);
