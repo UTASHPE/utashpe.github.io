@@ -4,6 +4,7 @@
 
 a {
   color: #FFA800;
+  font-family: 'oswald';
 }
 
 .side-header {
@@ -14,7 +15,7 @@ a {
 }
 
 .landing-content {
-  padding: 0px 20px 20px 20px;
+  padding: 75px 10px 10px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -23,21 +24,22 @@ a {
       -ms-flex-direction: column;
           flex-direction: column;
   background: white;
+  min-height: 75vh;
 }
 
 .landing-content .side-header {
   visibility: hidden;
 }
 
-.landing-content .siema {
-  width: 100%;
-  padding: 0;
-}
-
 .landing-content .image-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.side-nav-container {
+  visibility: hidden;
+  display: none;
 }
 
 .gridbox-1 p {
@@ -65,7 +67,7 @@ a {
 }
 
 .content .content-info {
-  max-width: 600px;
+  max-width: 55vw;
   color: #202020;
   padding-left: 20px;
 }
@@ -78,6 +80,15 @@ a {
 
 .content .content-images {
   height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .calendar-container {
@@ -86,36 +97,19 @@ a {
   width: 90%;
 }
 
-#upcoming .slideshow-container {
-  width: 100%;
-  margin: 2rem 0;
-  height: 500px;
-}
-
-#upcoming .slideshow-container .img-container {
-  padding: 0;
-  margin: 0;
-  height: 500px;
-  background: url("https://s3.amazonaws.com/thumbnails.venngage.com/template/760aed97-64b2-491f-a646-32c19e390e28.png") no-repeat;
-  background-size: contain;
-  background-position: center;
-}
-
 @media screen and (min-width: 700px) {
   .landing-content {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    padding: 0px;
   }
   .block-1 {
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     position: relative;
   }
   .block-1 .side-header {
@@ -131,29 +125,58 @@ a {
     margin-bottom: 50px;
   }
   .block-1 .landing-info {
-    margin-right: auto;
-    width: 80vw;
+    width: 100vw;
     position: relative;
     z-index: 1;
   }
   .grid-container {
-    width: 100%;
-    height: 100%;
-    margin: auto;
+    height: 70vh;
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: (1fr)[8];
-        grid-template-columns: repeat(8, 1fr);
+    -ms-grid-columns: (1fr)[16];
+        grid-template-columns: repeat(16, 1fr);
     -ms-grid-rows: (1fr)[8];
         grid-template-rows: repeat(8, 1fr);
   }
-  .grid-container .gridbox-1 {
-    padding: 50px 5px;
+  .grid-container .side-nav-container {
+    border: solid red 2px;
+    visibility: visible;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    width: 80px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 10px;
+    -webkit-writing-mode: vertical-lr;
+        -ms-writing-mode: tb-lr;
+            writing-mode: vertical-lr;
     -ms-grid-column: 1;
         grid-column-start: 1;
-    grid-column-end: 5;
+    grid-column-end: 2;
     -ms-grid-row: 1;
         grid-row-start: 1;
+    grid-row-end: 9;
+  }
+  .grid-container .side-nav-container a {
+    margin: 20px 0px;
+    font-size: 22px;
+    font-family: 'oswald';
+    text-decoration: none;
+    color: black;
+  }
+  .grid-container .gridbox-1 {
+    padding: 10px 5px;
+    -ms-grid-column: 3;
+        grid-column-start: 3;
+    grid-column-end: 10;
+    -ms-grid-row: 2;
+        grid-row-start: 2;
     grid-row-end: 8;
     z-index: 2;
   }
@@ -161,23 +184,22 @@ a {
     font-family: Bitter;
     font-style: normal;
     font-weight: bold;
-    line-height: 78px;
-    font-size: 72px;
+    font-size: 2.3rem;
     letter-spacing: 0.08em;
     padding-left: 10px;
     color: #153B73;
   }
   .grid-container .gridbox-1 p {
     padding-left: 10px;
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Merriweather';
     width: 60%;
     font-weight: 200;
   }
   .grid-container .gridbox-2 {
-    -ms-grid-column: 4;
-        grid-column-start: 4;
-    grid-column-end: 9;
+    -ms-grid-column: 8;
+        grid-column-start: 8;
+    grid-column-end: 17;
     -ms-grid-row: 1;
         grid-row-start: 1;
     grid-row-end: 9;
@@ -189,7 +211,7 @@ a {
     background-blend-mode: exclusion;
     background-position: center;
     background-size: cover;
-    height: 90%;
+    height: 100%;
   }
   .content {
     -webkit-box-orient: horizontal;
