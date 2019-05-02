@@ -24,7 +24,7 @@ a{
 
 
 .landing-content{
-  padding: 75px 10px 10px 10px;
+  padding: 55px 10px 10px 10px;
   display: flex;
   flex-direction: column;
   // background: $blue;
@@ -47,13 +47,14 @@ a{
   }
 }
 
-.side-nav-container{
-  visibility: hidden;
-  display: none;
-  
+.google-calendar{
+  height: 70vh;
+
 }
+
+
 .gridbox-1{
-  
+
   p{
     // color: white;
     color: rgb(41, 41, 41);
@@ -122,13 +123,11 @@ a{
 
 
 
-
 @media screen and (min-width: $break-med) {
   
   .landing-content{
     flex-direction: row;
     padding: 0px;
-    // height: 80vh;
 
   }
 
@@ -174,7 +173,7 @@ a{
   .grid-container{
     // border: solid blue 2px;
     // width: 100%;
-    height: 70vh;
+    height: 85vh;
     // border: solid red 2px;
     // margin: 0 auto;
     display: grid;
@@ -212,40 +211,45 @@ a{
     }
 
     .gridbox-1{
-      padding: 10px 5px;
-      grid-column-start: 3;
-      grid-column-end:  10;
-      grid-row-start:    2;
+      padding: 10px 20px;
+
+      grid-column-start: 1;
+      grid-column-end:  11;
+      grid-row-start:    1;
       grid-row-end:      8;
       z-index:           2;
 
-
-      h1{
-        font-family: Bitter;
-        font-style: normal;
-        font-weight: bold;
-        // line-height: 78px;
-        // font-size: 72px;
-        font-size: 2.3rem;
-        letter-spacing: 0.08em;
-        padding-left: 10px;
-        // color: #FFA800;
-        color: $blue;
-
-
+      .google-calendar{
+        border: solid red 2px;
+        height: 100%;
       }
-      p{
-        padding-left: 10px;
-        font-size: 1rem;
-        font-family: 'Merriweather';
-        // color: rgb(29, 29, 29);
-        width: 60%;
-        font-weight: 200;
-      }
+
+      // h1{
+      //   font-family: Bitter;
+      //   font-style: normal;
+      //   font-weight: bold;
+      //   // line-height: 78px;
+      //   // font-size: 72px;
+      //   font-size: 2.3rem;
+      //   letter-spacing: 0.08em;
+      //   padding-left: 10px;
+      //   // color: #FFA800;
+      //   color: $blue;
+
+
+      // }
+      // p{
+      //   padding-left: 10px;
+      //   font-size: 1rem;
+      //   font-family: 'Merriweather';
+      //   // color: rgb(29, 29, 29);
+      //   width: 60%;
+      //   font-weight: 200;
+      // }
     }
     .gridbox-2{
 
-      grid-column-start: 8;
+      grid-column-start: 11;
       grid-column-end: 17;
       grid-row-start:1;
       grid-row-end: 9;

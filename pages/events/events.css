@@ -15,7 +15,7 @@ a {
 }
 
 .landing-content {
-  padding: 75px 10px 10px 10px;
+  padding: 55px 10px 10px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -37,9 +37,8 @@ a {
   display: flex;
 }
 
-.side-nav-container {
-  visibility: hidden;
-  display: none;
+.google-calendar {
+  height: 70vh;
 }
 
 .gridbox-1 p {
@@ -130,7 +129,7 @@ a {
     z-index: 1;
   }
   .grid-container {
-    height: 70vh;
+    height: 85vh;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: (1fr)[16];
@@ -171,34 +170,22 @@ a {
     color: black;
   }
   .grid-container .gridbox-1 {
-    padding: 10px 5px;
-    -ms-grid-column: 3;
-        grid-column-start: 3;
-    grid-column-end: 10;
-    -ms-grid-row: 2;
-        grid-row-start: 2;
+    padding: 10px 20px;
+    -ms-grid-column: 1;
+        grid-column-start: 1;
+    grid-column-end: 11;
+    -ms-grid-row: 1;
+        grid-row-start: 1;
     grid-row-end: 8;
     z-index: 2;
   }
-  .grid-container .gridbox-1 h1 {
-    font-family: Bitter;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 2.3rem;
-    letter-spacing: 0.08em;
-    padding-left: 10px;
-    color: #153B73;
-  }
-  .grid-container .gridbox-1 p {
-    padding-left: 10px;
-    font-size: 1rem;
-    font-family: 'Merriweather';
-    width: 60%;
-    font-weight: 200;
+  .grid-container .gridbox-1 .google-calendar {
+    border: solid red 2px;
+    height: 100%;
   }
   .grid-container .gridbox-2 {
-    -ms-grid-column: 8;
-        grid-column-start: 8;
+    -ms-grid-column: 11;
+        grid-column-start: 11;
     grid-column-end: 17;
     -ms-grid-row: 1;
         grid-row-start: 1;
